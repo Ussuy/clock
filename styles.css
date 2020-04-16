@@ -8,6 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #3d3d3d;
+    overflow: hidden;
 }
 
 .clock {
