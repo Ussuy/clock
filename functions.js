@@ -2,9 +2,9 @@
 
     function clock() {
         const fullDate = new Date();
-        const hours = fullDate.getHours();
-        const minutes = fullDate.getMinutes();
-        const seconds = fullDate.getSeconds();
+        let hours = fullDate.getHours();
+        let minutes = fullDate.getMinutes();
+        let seconds = fullDate.getSeconds();
     
         if(hours < 10) 
             hours = "0" + hours
